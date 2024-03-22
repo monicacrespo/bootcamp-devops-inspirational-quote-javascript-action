@@ -1,0 +1,8 @@
+name: 'Inspirational quote'
+description: 'Get an inspirational quote'
+outputs:
+  quote: # id of output
+    description: 'A random inspirational quote message'
+runs:
+  using: 'node20'
+  main: 'dist/index.js'
